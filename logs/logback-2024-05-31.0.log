@@ -1,0 +1,87 @@
+10:18:16.129 INFO  com.example.loop.LoopApplication - Starting LoopApplication v0.0.1-SNAPSHOT using Java 17.0.10 with PID 17540 (C:\loop\build\libs\loop-0.0.1-SNAPSHOT.jar started by bryu in C:\loop)
+10:18:16.131 INFO  com.example.loop.LoopApplication - No active profile set, falling back to 1 default profile: "default"
+10:18:16.545 INFO  o.s.b.c.c.annotation.BatchRegistrar - Finished Spring Batch infrastructure beans configuration in 5 ms.
+10:18:16.652 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+10:18:16.729 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+10:18:16.774 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31 ms. Found 0 JDBC repository interfaces.
+10:18:16.804 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+10:18:16.806 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+10:18:16.811 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+10:18:17.017 WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'jobRegistry' of type [org.springframework.batch.core.configuration.support.MapJobRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+10:18:17.139 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+10:18:17.340 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@441b8382
+10:18:17.342 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+10:18:17.389 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+10:18:17.455 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+10:18:17.489 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+10:18:17.871 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+10:18:18.379 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+10:18:18.385 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+10:18:18.448 INFO  o.s.b.c.r.s.JobRepositoryFactoryBean - No database type set, using meta data indicating: MYSQL
+10:18:18.509 INFO  o.s.b.c.c.a.BatchObservabilityBeanPostProcessor - No Micrometer observation registry found, defaulting to ObservationRegistry.NOOP
+10:18:18.513 INFO  o.s.b.c.c.a.BatchObservabilityBeanPostProcessor - No Micrometer observation registry found, defaulting to ObservationRegistry.NOOP
+10:18:18.515 INFO  o.s.b.c.c.a.BatchObservabilityBeanPostProcessor - No Micrometer observation registry found, defaulting to ObservationRegistry.NOOP
+10:18:18.519 INFO  o.s.b.c.l.support.SimpleJobLauncher - No TaskExecutor has been set, defaulting to synchronous executor.
+10:18:18.763 INFO  com.example.loop.LoopApplication - Started LoopApplication in 3.007 seconds (process running for 3.721)
+10:18:18.771 WARN  o.s.b.f.s.DisposableBeanAdapter - Custom destroy method 'close' on bean with name 'jsonItemReader' propagated an exception: org.springframework.batch.item.ItemStreamException: Error while closing item reader
+10:18:18.772 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+10:18:18.775 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+10:18:18.783 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+10:20:01.109 INFO  com.example.loop.LoopApplication - Starting LoopApplication v0.0.1-SNAPSHOT using Java 17.0.10 with PID 4784 (C:\loop\build\libs\loop-0.0.1-SNAPSHOT.jar started by bryu in C:\loop)
+10:20:01.112 INFO  com.example.loop.LoopApplication - No active profile set, falling back to 1 default profile: "default"
+10:20:01.486 INFO  o.s.b.c.c.annotation.BatchRegistrar - Finished Spring Batch infrastructure beans configuration in 4 ms.
+10:20:01.597 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+10:20:01.598 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+10:20:01.615 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 JDBC repository interfaces.
+10:20:01.640 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+10:20:01.642 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+10:20:01.649 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+10:20:01.848 WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'jobRegistry' of type [org.springframework.batch.core.configuration.support.MapJobRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+10:20:01.969 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+10:20:02.164 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@32b0876c
+10:20:02.166 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+10:20:02.213 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+10:20:02.267 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+10:20:02.309 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+10:20:02.643 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+10:20:03.109 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+10:20:03.114 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+10:20:03.178 INFO  o.s.b.c.r.s.JobRepositoryFactoryBean - No database type set, using meta data indicating: MYSQL
+10:20:03.249 INFO  o.s.b.c.c.a.BatchObservabilityBeanPostProcessor - No Micrometer observation registry found, defaulting to ObservationRegistry.NOOP
+10:20:03.254 INFO  o.s.b.c.c.a.BatchObservabilityBeanPostProcessor - No Micrometer observation registry found, defaulting to ObservationRegistry.NOOP
+10:20:03.256 INFO  o.s.b.c.c.a.BatchObservabilityBeanPostProcessor - No Micrometer observation registry found, defaulting to ObservationRegistry.NOOP
+10:20:03.266 INFO  o.s.b.c.l.support.SimpleJobLauncher - No TaskExecutor has been set, defaulting to synchronous executor.
+10:20:03.515 INFO  com.example.loop.LoopApplication - Started LoopApplication in 2.763 seconds (process running for 3.447)
+10:20:03.523 WARN  o.s.b.f.s.DisposableBeanAdapter - Custom destroy method 'close' on bean with name 'jsonItemReader' propagated an exception: org.springframework.batch.item.ItemStreamException: Error while closing item reader
+10:20:03.523 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+10:20:03.527 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+10:20:03.535 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+10:22:24.890 INFO  com.example.loop.LoopApplication - Starting LoopApplication v0.0.1-SNAPSHOT using Java 17.0.10 with PID 12132 (C:\loop\build\libs\loop-0.0.1-SNAPSHOT.jar started by bryu in C:\loop)
+10:22:24.892 INFO  com.example.loop.LoopApplication - No active profile set, falling back to 1 default profile: "default"
+10:22:25.264 INFO  o.s.b.c.c.annotation.BatchRegistrar - Finished Spring Batch infrastructure beans configuration in 4 ms.
+10:22:25.378 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+10:22:25.380 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+10:22:25.396 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 JDBC repository interfaces.
+10:22:25.420 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+10:22:25.421 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+10:22:25.426 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+10:22:25.617 WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'jobRegistry' of type [org.springframework.batch.core.configuration.support.MapJobRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+10:22:25.735 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+10:22:25.940 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6a2c717f
+10:22:25.942 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+10:22:25.991 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+10:22:26.051 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+10:22:26.087 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+10:22:26.447 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+10:22:26.966 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+10:22:26.973 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+10:22:27.033 INFO  o.s.b.c.r.s.JobRepositoryFactoryBean - No database type set, using meta data indicating: MYSQL
+10:22:27.101 INFO  o.s.b.c.c.a.BatchObservabilityBeanPostProcessor - No Micrometer observation registry found, defaulting to ObservationRegistry.NOOP
+10:22:27.105 INFO  o.s.b.c.c.a.BatchObservabilityBeanPostProcessor - No Micrometer observation registry found, defaulting to ObservationRegistry.NOOP
+10:22:27.108 INFO  o.s.b.c.c.a.BatchObservabilityBeanPostProcessor - No Micrometer observation registry found, defaulting to ObservationRegistry.NOOP
+10:22:27.111 INFO  o.s.b.c.l.support.SimpleJobLauncher - No TaskExecutor has been set, defaulting to synchronous executor.
+10:22:27.347 INFO  com.example.loop.LoopApplication - Started LoopApplication in 2.815 seconds (process running for 3.502)
+10:22:27.354 WARN  o.s.b.f.s.DisposableBeanAdapter - Custom destroy method 'close' on bean with name 'jsonItemReader' propagated an exception: org.springframework.batch.item.ItemStreamException: Error while closing item reader
+10:22:27.355 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+10:22:27.358 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+10:22:27.365 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
